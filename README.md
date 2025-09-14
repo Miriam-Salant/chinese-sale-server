@@ -1,4 +1,3 @@
-```markdown
 # Chinese Sale – Server (Web API)
 
 This repository contains the **ASP.NET Core Web API backend** for the Chinese Sale project.  
