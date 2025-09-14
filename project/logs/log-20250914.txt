@@ -1,0 +1,252 @@
+2025-09-14 15:47:38.020 +03:00 [INF] Starting up the application
+2025-09-14 15:47:44.112 +03:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-14 15:47:50.475 +03:00 [INF] Executed DbCommand (383ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2025-09-14 15:47:50.866 +03:00 [INF] Executed DbCommand (44ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2025-09-14 15:47:52.057 +03:00 [INF] Creating key {33562991-ddcd-49ad-96cb-89b1ceb969d6} with creation date 2025-09-14 12:47:52Z, activation date 2025-09-14 12:47:51Z, and expiration date 2025-12-13 12:47:51Z.
+2025-09-14 15:47:52.124 +03:00 [INF] Writing data to file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-33562991-ddcd-49ad-96cb-89b1ceb969d6.xml'.
+2025-09-14 15:47:52.574 +03:00 [INF] Now listening on: http://localhost:5062
+2025-09-14 15:47:52.596 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-14 15:47:52.605 +03:00 [INF] Hosting environment: Development
+2025-09-14 15:47:52.614 +03:00 [INF] Content root path: C:\Users\HP\Downloads\פרויקט סופי\server\project
+2025-09-14 15:47:54.355 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/ - null null
+2025-09-14 15:47:54.483 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/ - 301 0 null 132.7625ms
+2025-09-14 15:47:54.512 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/index.html - null null
+2025-09-14 15:47:54.867 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/index.html - 200 null text/html;charset=utf-8 354.5033ms
+2025-09-14 15:47:54.889 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger-ui.css - null null
+2025-09-14 15:47:54.896 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/index.css - null null
+2025-09-14 15:47:54.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger-ui-bundle.js - null null
+2025-09-14 15:47:54.910 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger-ui-standalone-preset.js - null null
+2025-09-14 15:47:54.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/index.js - null null
+2025-09-14 15:47:54.972 +03:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2025-09-14 15:47:54.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/index.js - 200 null application/javascript;charset=utf-8 62.1034ms
+2025-09-14 15:47:55.010 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/index.css - 200 202 text/css 113.9809ms
+2025-09-14 15:47:55.010 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-09-14 15:47:55.011 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-09-14 15:47:55.080 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-09-14 15:47:55.080 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger-ui.css - 200 152035 text/css 191.076ms
+2025-09-14 15:47:55.089 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger-ui-standalone-preset.js - 200 230007 text/javascript 178.5555ms
+2025-09-14 15:47:55.099 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger-ui-bundle.js - 200 1426050 text/javascript 193.0418ms
+2025-09-14 15:47:55.584 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - null null
+2025-09-14 15:47:55.639 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/favicon-32x32.png - null null
+2025-09-14 15:47:55.648 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-09-14 15:47:55.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/favicon-32x32.png - 200 628 image/png 17.5704ms
+2025-09-14 15:47:56.203 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 619.4951ms
+2025-09-14 15:48:00.780 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Donator - null null
+2025-09-14 15:48:00.857 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-09-14 15:48:00.932 +03:00 [INF] Incoming Request: GET /api/Donator
+2025-09-14 15:48:00.935 +03:00 [WRN] Missing Authorization Header
+2025-09-14 15:48:00.938 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Donator - 401 null null 158.4535ms
+2025-09-14 15:48:01.586 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/Donator - null null
+2025-09-14 15:48:01.597 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:01.609 +03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/Donator - 204 null null 23.4736ms
+2025-09-14 15:48:01.624 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Donator - application/json null
+2025-09-14 15:48:01.638 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:01.648 +03:00 [INF] Incoming Request: GET /api/Donator
+2025-09-14 15:48:02.231 +03:00 [WRN] Invalid Token
+2025-09-14 15:48:02.236 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Donator - 401 null null 611.9576ms
+2025-09-14 15:48:03.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Gift - null null
+2025-09-14 15:48:03.847 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:04.035 +03:00 [INF] Executing endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:04.104 +03:00 [INF] Route matched with {action = "GetGifts", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.Gift]] GetGiftsAsync() on controller project.Controllers.GiftController (project).
+2025-09-14 15:48:04.638 +03:00 [INF] Starting GetGiftsAsync at "2025-09-14T12:48:04.6372943Z"
+2025-09-14 15:48:05.122 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [Gifts] AS [g]
+2025-09-14 15:48:05.266 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:05.2663599Z"
+2025-09-14 15:48:05.270 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:05.2700154Z"
+2025-09-14 15:48:05.273 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:05.2739306Z"
+2025-09-14 15:48:05.292 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.Gift, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:05.456 +03:00 [INF] Executed action project.Controllers.GiftController.GetGiftsAsync (project) in 1326.4012ms
+2025-09-14 15:48:05.466 +03:00 [INF] Executed endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:05.491 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Gift - 200 null application/json; charset=utf-8 1652.5585ms
+2025-09-14 15:48:05.905 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Gift - null null
+2025-09-14 15:48:05.918 +03:00 [INF] Executing endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:05.923 +03:00 [INF] Route matched with {action = "GetGifts", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.Gift]] GetGiftsAsync() on controller project.Controllers.GiftController (project).
+2025-09-14 15:48:05.942 +03:00 [INF] Starting GetGiftsAsync at "2025-09-14T12:48:05.9426781Z"
+2025-09-14 15:48:06.003 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [Gifts] AS [g]
+2025-09-14 15:48:06.019 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:06.0190414Z"
+2025-09-14 15:48:06.022 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:06.0226443Z"
+2025-09-14 15:48:06.030 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:06.0303772Z"
+2025-09-14 15:48:06.038 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.Gift, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:06.051 +03:00 [INF] Executed action project.Controllers.GiftController.GetGiftsAsync (project) in 114.227ms
+2025-09-14 15:48:06.058 +03:00 [INF] Executed endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:06.067 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Gift - 200 null application/json; charset=utf-8 161.7035ms
+2025-09-14 15:48:07.339 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/User/userBasket - null null
+2025-09-14 15:48:07.349 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:07.355 +03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/User/userBasket - 204 null null 16.2786ms
+2025-09-14 15:48:07.369 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/User/userBasket - application/json null
+2025-09-14 15:48:07.379 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:07.385 +03:00 [INF] Incoming Request: GET /api/User/userBasket
+2025-09-14 15:48:07.458 +03:00 [WRN] Invalid Token
+2025-09-14 15:48:07.462 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/User/userBasket - 401 null null 92.6484ms
+2025-09-14 15:48:09.186 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/Gift/giftsWithDonatorAndCategory - null null
+2025-09-14 15:48:09.199 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:09.203 +03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/Gift/giftsWithDonatorAndCategory - 204 null null 16.6042ms
+2025-09-14 15:48:09.221 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Gift/giftsWithDonatorAndCategory - application/json null
+2025-09-14 15:48:09.240 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:09.346 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '24/01/2025 14:41:53', Current time (UTC): '14/09/2025 12:48:09'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2025-09-14 15:48:09.490 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '24/01/2025 14:41:53', Current time (UTC): '14/09/2025 12:48:09'.
+2025-09-14 15:48:09.513 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-14 15:48:09.532 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-14 15:48:09.536 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Gift/giftsWithDonatorAndCategory - 401 0 null 314.5057ms
+2025-09-14 15:48:11.541 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/Donator - null null
+2025-09-14 15:48:11.554 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:11.558 +03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/Donator - 204 null null 16.654ms
+2025-09-14 15:48:11.574 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Donator - application/json null
+2025-09-14 15:48:11.593 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:11.597 +03:00 [INF] Incoming Request: GET /api/Donator
+2025-09-14 15:48:11.697 +03:00 [WRN] Invalid Token
+2025-09-14 15:48:11.705 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Donator - 401 null null 131.6248ms
+2025-09-14 15:48:19.085 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/Auth/login - null null
+2025-09-14 15:48:19.100 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:19.104 +03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/Auth/login - 204 null null 19.3427ms
+2025-09-14 15:48:19.119 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/Auth/login - application/json 54
+2025-09-14 15:48:19.139 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:19.147 +03:00 [INF] Executing endpoint 'project.Controllers.AuthController.Login (project)'
+2025-09-14 15:48:19.186 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(project.Models.Login) on controller project.Controllers.AuthController (project).
+2025-09-14 15:48:19.346 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-09-14 15:48:20.117 +03:00 [INF] Executed DbCommand (47ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-09-14 15:48:20.174 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-09-14 15:48:20.332 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5062/api/Auth/login - application/json 54
+2025-09-14 15:48:20.345 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:20.351 +03:00 [INF] Executing endpoint 'project.Controllers.AuthController.Login (project)'
+2025-09-14 15:48:20.356 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2025-09-14 15:48:20.359 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(project.Models.Login) on controller project.Controllers.AuthController (project).
+2025-09-14 15:48:20.380 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType20`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-14 15:48:20.418 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Discriminator], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-09-14 15:48:20.442 +03:00 [INF] Executed action project.Controllers.AuthController.Login (project) in 1242.4917ms
+2025-09-14 15:48:20.446 +03:00 [INF] Executed endpoint 'project.Controllers.AuthController.Login (project)'
+2025-09-14 15:48:20.452 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/Auth/login - 200 null application/json; charset=utf-8 1332.5368ms
+2025-09-14 15:48:20.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Gift - null null
+2025-09-14 15:48:20.502 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:20.513 +03:00 [INF] Executing endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:20.518 +03:00 [INF] Route matched with {action = "GetGifts", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.Gift]] GetGiftsAsync() on controller project.Controllers.GiftController (project).
+2025-09-14 15:48:20.549 +03:00 [INF] Starting GetGiftsAsync at "2025-09-14T12:48:20.5498827Z"
+2025-09-14 15:48:20.563 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [Gifts] AS [g]
+2025-09-14 15:48:20.577 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:20.5777509Z"
+2025-09-14 15:48:20.581 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:20.5811544Z"
+2025-09-14 15:48:20.585 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:20.5856309Z"
+2025-09-14 15:48:20.592 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.Gift, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:20.601 +03:00 [INF] Executed action project.Controllers.GiftController.GetGiftsAsync (project) in 66.0576ms
+2025-09-14 15:48:20.606 +03:00 [INF] Executed endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:20.620 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Gift - 200 null application/json; charset=utf-8 136.3494ms
+2025-09-14 15:48:20.747 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-09-14 15:48:20.771 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__normalizedRoleName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedRoleName_0
+2025-09-14 15:48:20.796 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (Size = 450), @__p_1='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[UserId], [a].[RoleId]
+FROM [AspNetUserRoles] AS [a]
+WHERE [a].[UserId] = @__p_0 AND [a].[RoleId] = @__p_1
+2025-09-14 15:48:20.813 +03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType20`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-14 15:48:20.823 +03:00 [INF] Executed action project.Controllers.AuthController.Login (project) in 434.7575ms
+2025-09-14 15:48:20.833 +03:00 [INF] Executed endpoint 'project.Controllers.AuthController.Login (project)'
+2025-09-14 15:48:20.838 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5062/api/Auth/login - 200 null application/json; charset=utf-8 505.432ms
+2025-09-14 15:48:23.224 +03:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5062/api/User/userBasket - null null
+2025-09-14 15:48:23.234 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:23.244 +03:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5062/api/User/userBasket - 204 null null 19.66ms
+2025-09-14 15:48:23.261 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/User/userBasket - application/json null
+2025-09-14 15:48:23.278 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:23.292 +03:00 [INF] Incoming Request: GET /api/User/userBasket
+2025-09-14 15:48:23.378 +03:00 [INF] Executing endpoint 'project.Controllers.UserController.GetUserGifts (project)'
+2025-09-14 15:48:23.398 +03:00 [INF] Route matched with {action = "GetUserGifts", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.ModelsDTO.UserGiftDTO]] GetUserGifts() on controller project.Controllers.UserController (project).
+2025-09-14 15:48:23.432 +03:00 [INF] Received request to get basket for user: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c
+2025-09-14 15:48:23.443 +03:00 [INF] Start fetching user gifts for userId: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c
+2025-09-14 15:48:23.609 +03:00 [INF] Executed DbCommand (56ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[GiftId], [u].[GiftStatus], [u].[Quantity], [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [UserGifts] AS [u]
+INNER JOIN [Gifts] AS [g] ON [u].[GiftId] = [g].[Id]
+WHERE [u].[UserId] = @__userId_0
+2025-09-14 15:48:23.794 +03:00 [INF] Successfully fetched gifts for userId: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c, result count: 1
+2025-09-14 15:48:23.802 +03:00 [INF] Successfully retrieved 1 gifts for user: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c
+2025-09-14 15:48:23.814 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.ModelsDTO.UserGiftDTO, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:23.857 +03:00 [INF] Executed action project.Controllers.UserController.GetUserGifts (project) in 439.3188ms
+2025-09-14 15:48:23.868 +03:00 [INF] Executed endpoint 'project.Controllers.UserController.GetUserGifts (project)'
+2025-09-14 15:48:23.884 +03:00 [INF] Outgoing Response: 200
+2025-09-14 15:48:23.897 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/User/userBasket - 200 null application/json; charset=utf-8 636.1495ms
+2025-09-14 15:48:24.614 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Gift - null null
+2025-09-14 15:48:24.625 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:24.631 +03:00 [INF] Executing endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:24.640 +03:00 [INF] Route matched with {action = "GetGifts", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.Gift]] GetGiftsAsync() on controller project.Controllers.GiftController (project).
+2025-09-14 15:48:24.671 +03:00 [INF] Starting GetGiftsAsync at "2025-09-14T12:48:24.6713331Z"
+2025-09-14 15:48:24.695 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [Gifts] AS [g]
+2025-09-14 15:48:24.727 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:24.7271643Z"
+2025-09-14 15:48:24.740 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:24.7405323Z"
+2025-09-14 15:48:24.756 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:24.7561604Z"
+2025-09-14 15:48:24.770 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.Gift, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:24.794 +03:00 [INF] Executed action project.Controllers.GiftController.GetGiftsAsync (project) in 124.9558ms
+2025-09-14 15:48:24.800 +03:00 [INF] Executed endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:24.809 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Gift - 200 null application/json; charset=utf-8 194.9624ms
+2025-09-14 15:48:25.834 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/User/userBasket - application/json null
+2025-09-14 15:48:25.843 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:25.847 +03:00 [INF] Incoming Request: GET /api/User/userBasket
+2025-09-14 15:48:25.856 +03:00 [INF] Executing endpoint 'project.Controllers.UserController.GetUserGifts (project)'
+2025-09-14 15:48:25.862 +03:00 [INF] Route matched with {action = "GetUserGifts", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.ModelsDTO.UserGiftDTO]] GetUserGifts() on controller project.Controllers.UserController (project).
+2025-09-14 15:48:25.883 +03:00 [INF] Received request to get basket for user: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c
+2025-09-14 15:48:25.894 +03:00 [INF] Start fetching user gifts for userId: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c
+2025-09-14 15:48:25.942 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserId], [u].[GiftId], [u].[GiftStatus], [u].[Quantity], [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [UserGifts] AS [u]
+INNER JOIN [Gifts] AS [g] ON [u].[GiftId] = [g].[Id]
+WHERE [u].[UserId] = @__userId_0
+2025-09-14 15:48:25.986 +03:00 [INF] Successfully fetched gifts for userId: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c, result count: 1
+2025-09-14 15:48:25.995 +03:00 [INF] Successfully retrieved 1 gifts for user: a3ee0356-1dde-4c41-809c-7cfaa97a3d3c
+2025-09-14 15:48:26.012 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.ModelsDTO.UserGiftDTO, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:26.036 +03:00 [INF] Executed action project.Controllers.UserController.GetUserGifts (project) in 154.8914ms
+2025-09-14 15:48:26.049 +03:00 [INF] Executed endpoint 'project.Controllers.UserController.GetUserGifts (project)'
+2025-09-14 15:48:26.064 +03:00 [INF] Outgoing Response: 200
+2025-09-14 15:48:26.075 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/User/userBasket - 200 null application/json; charset=utf-8 241.6779ms
+2025-09-14 15:48:26.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5062/api/Gift - null null
+2025-09-14 15:48:26.867 +03:00 [INF] CORS policy execution successful.
+2025-09-14 15:48:26.874 +03:00 [INF] Executing endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:26.882 +03:00 [INF] Route matched with {action = "GetGifts", controller = "Gift"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[project.Models.Gift]] GetGiftsAsync() on controller project.Controllers.GiftController (project).
+2025-09-14 15:48:26.910 +03:00 [INF] Starting GetGiftsAsync at "2025-09-14T12:48:26.9104778Z"
+2025-09-14 15:48:26.926 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [g].[Id], [g].[CategoryId], [g].[DonatorId], [g].[IsLotteryCompleted], [g].[Name], [g].[Price], [g].[Status], [g].[WinningId], [g].[image]
+FROM [Gifts] AS [g]
+2025-09-14 15:48:26.940 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:26.9400777Z"
+2025-09-14 15:48:26.943 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:26.9432650Z"
+2025-09-14 15:48:26.949 +03:00 [INF] GetGiftsAsync completed successfully at "2025-09-14T12:48:26.9490126Z"
+2025-09-14 15:48:26.954 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[project.Models.Gift, project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-14 15:48:26.963 +03:00 [INF] Executed action project.Controllers.GiftController.GetGiftsAsync (project) in 53.7261ms
+2025-09-14 15:48:26.967 +03:00 [INF] Executed endpoint 'project.Controllers.GiftController.GetGiftsAsync (project)'
+2025-09-14 15:48:26.971 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5062/api/Gift - 200 null application/json; charset=utf-8 117.1879ms
